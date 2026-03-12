@@ -55,18 +55,18 @@ cp .env.example .env
 Настройте переменные окружения в `.env`:
 
 ```env
-TEST_TASK_APP__DEBUG=true
-TEST_TASK_APP__BASE_URL=http://localhost:8080
-TEST_TASK_APP__SECRET_KEY=your-secret-key-here
-TEST_TASK_APP__CORS_ORIGINS=http://localhost:3000,http://localhost:8080
+TEST_TASK_APP_DEBUG=true
+TEST_TASK_APP_BASE_URL=http://localhost:8080
+TEST_TASK_APP_SECRET_KEY=your-secret-key-here
+TEST_TASK_APP_CORS_ORIGINS=http://localhost:3000,http://localhost:8080
 
 # Database
-TEST_TASK_APP__DB__HOST=localhost
-TEST_TASK_APP__DB__PORT=5432
-TEST_TASK_APP__DB__USER=postgres
-TEST_TASK_APP__DB__PASSWORD=your-password
-TEST_TASK_APP__DB__NAME=diary_db
-TEST_TASK_APP__DB__SCHEME=public
+TEST_TASK_APP_DB__HOST=localhost
+TEST_TASK_APP_DB__PORT=5432
+TEST_TASK_APP_DB__USER=postgres
+TEST_TASK_APP_DB__PASSWORD=your-password
+TEST_TASK_APP_DB__NAME=diary_db
+TEST_TASK_APP_DB__SCHEME=public
 ```
 
 ### 3. Создание базы данных
